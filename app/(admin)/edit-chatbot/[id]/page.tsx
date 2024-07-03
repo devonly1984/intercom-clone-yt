@@ -31,18 +31,19 @@ const EditChatbot = ({params:{id}}:{params:{id:string}}) => {
   });
   //mutations
   const [deleteChatbot] = useMutation(DELETE_CHATBOT, {
-    refetchQueries: ["GetChatbotById"],
+    refetchQueries: ["GetChatbotsById"],
     
   });
   const [addCharacteristic] = useMutation(ADD_CHARACTERISTIC, {
-    refetchQueries: ["GetChatbotById"],
+    refetchQueries: ["GetChatbotsById"],
   });
   const [updateChatbot] = useMutation(UPDATE_CHATBOT, {
-    refetchQueries: ["GetChatbotById"],
+    refetchQueries: ["GetChatbotsById"],
   });
   useEffect(()=>{
     if (data) {
       setChatbotName(data?.chatbots?.name);
+     
     }
   },[data])
   useEffect(() => {

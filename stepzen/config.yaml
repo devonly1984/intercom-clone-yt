@@ -1,4 +1,4 @@
 configurationset:
   - configuration:
       name: postgresql_config
-      uri: postgresql://ep-quiet-sun-a54268tm.us-east-2.aws.neon.tech/intercom?user=intercom_owner&password=5hPl3TzivIBG
+      uri: postgresql://ep-withered-dawn-a5eifraw.us-east-2.aws.neon.tech/intercom?user=intercom_owner&password=W8vuYxrARj3C

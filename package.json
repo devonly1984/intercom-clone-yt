@@ -13,6 +13,7 @@
     "@clerk/nextjs": "^5.1.6",
     "@dicebear/collection": "^9.0.1",
     "@dicebear/core": "^9.0.1",
+    "@hookform/resolvers": "^3.7.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
@@ -24,14 +25,17 @@
     "lucide-react": "^0.399.0",
     "next": "14.2.4",
     "next-themes": "^0.3.0",
+    "openai": "^4.52.3",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.52.1",
     "react-markdown": "^9.0.1",
     "react-timeago": "^7.2.0",
     "remark-gfm": "^4.0.0",
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",
